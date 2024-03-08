@@ -1,0 +1,25 @@
+{
+  "name": "@firefly-js/core",
+  "module": "src/index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun run src/build.mjs"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@firefly-js/check": "0.0.1-beta",
+    "bun-plugin-dts": "^0.2.1",
+    "viem": "^1.20.3"
+  },
+  "description": "To install dependencies:",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@firefly-js/validator",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "description": "To install dependencies:",
+  "version": "0.0.1-beta",
+  "main": "dist/index.js",
+  "dependencies": {
+    "bun-plugin-dts": "^0.2.1",
+    "reflect-metadata": "^0.2.1",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "bun run src/build.mjs"
+  },
+  "author": "",
+  "license": "ISC"
+}
